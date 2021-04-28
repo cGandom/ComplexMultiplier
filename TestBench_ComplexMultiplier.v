@@ -30,15 +30,6 @@ module TestBench_ComplexMultiplier();
 		#50
 		rst = 0;
 		#50
-		/*Xreal = 7;
-		Ximag = 2;
-		Yreal = 3;
-		Yimag = 8;
-		#40
-		start = 1;
-		#100
-		start = 0;
-		#10000*/
 		
 		for (i = 0; i < 8; i= i+1) begin
 			for (j = 0; j < 8; j = j+1) begin

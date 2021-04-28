@@ -30,13 +30,6 @@ module TestBench_Multiplier4x4 ();
 		#50
 		rst = 0;
 		#50
-		/*A = 10;
-		B = 12;
-		#40
-		start = 1;
-		#100
-		start = 0;
-		#3000*/
 		
 		for (i = 0; i < 16; i= i+1) begin
 			for (j = 0; j < 16; j = j+1) begin
