@@ -11,6 +11,7 @@ output selB;
 output[1:0] shiftSel;
 output ldRes;
 
+	// D -> input of regs, V->output of regs
 	wire [2:0] D, V;
 	
 	wire [2:0] Vnot;
